@@ -7,15 +7,15 @@
 <script src="jquery.pjax.js"></script>
 <script>
 $(function(){
-    $.pjax({
-        area : '#content',
-        link : 'a:not([target])'
-    });
+  $.pjax({
+area : '#content',
+link : 'a.pjax'
+});
 });
 </script>
 </head>
 <body>
-<ul id="nav">
+<ul>
 <li><a href="Index1.html">page1</a></li>
 <li><a href="index22.html">page2</a></li>
 <li><a href="index23.html">page3</a></li>
